@@ -1,6 +1,9 @@
 /*
  * By: Alex Thoennes
- * 
+ * September 3, 2015
+ *
+ * Modularisation Program
+ *
  * This program draws boxes. More specifically, a rectangle,
  * a convex, and a concave in that order. Following the three
  * ordered boxes is a stack of boxes.
