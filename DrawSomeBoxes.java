@@ -1,7 +1,9 @@
 /*
  * By: Alex Thoennes
- * The long astrix line is to show where 
- * the original boxes end and the stack begins.
+ * 
+ * This program draws boxes. More specifically, a rectangle,
+ * a convex, and a concave in that order. Following the three
+ * ordered boxes is a stack of boxes.
  */
 
 
@@ -9,6 +11,12 @@ public class DrawSomeBoxes
 {
 	
 	public static void main (String[] args)
+	{
+		drawBoxesInOrder();
+		drawStack();
+	}
+	
+	public static void drawBoxesInOrder()
 	{
 		drawRectangle();
 		System.out.println();
@@ -18,8 +26,10 @@ public class DrawSomeBoxes
 		System.out.println();
 		drawConcave();
 		System.out.println();
-		System.out.println("*************************************************************");
-		
+	}
+	
+	public static void drawStack()
+	{
 		drawRectangle();
 		drawConvex();
 		drawRectangle();
